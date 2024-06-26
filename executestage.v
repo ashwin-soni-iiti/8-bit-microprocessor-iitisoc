@@ -3,7 +3,8 @@
 `include "regFile.v"
 module executestage (result,zero_flag,carry_flag,ac_flag,parity_flag,opcode,
 am,rd,rs1,rs2,mem_addr,instr_mem_addr,s_r_amount,enable,reset,clk);
-output  reg [15:0] result; // final output from stage;
+    output  reg [15:0] resulxhsjs
+t; // final output from stage;
 output reg zero_flag,carry_flag,ac_flag,parity_flag; // all flag registers;
 
 input [4:0] opcode;
